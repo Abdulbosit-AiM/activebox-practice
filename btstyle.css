@@ -1,6 +1,22 @@
-h5 {
+.body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+h4, .text {
+  font-size: 22px;
+  color: #2d3033;
+  font-weight: 400;
+}
+p {
   font-size: 14px;
-  color: #ff55bb;
+  line-height: 22.4px;
+  color: #6c7279;
+}
+.rank {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #e84545;
 }
 .text {
   margin-top: 15px;
@@ -8,10 +24,6 @@ h5 {
 }
 .member {
   margin: 10px
-}
-.rank {
-  font-size: 14px;
-  color: #ff55bb;
 }
 .picture .text .rank {
   padding: 5px;
@@ -21,77 +33,69 @@ h5 {
   font-size: 12px;
   position: relative;
 }
-.link-group {
-  position: absolute;
-  border: none;
-  color: white;
-  padding: 10px 20px;
+.fab {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  border: 1px solid grey;
   text-align: center;
-  display: flex;
-  font-size: 14px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.iglink {
-  background-color: #007bff;
-  width: 25px;
-  border: 2px solid grey;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-.fblink {
-  background-color: #007bff;
-  width: 25px;
-  border: 2px solid grey;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-.twlink {
-  background-color: #007bff;
-  width: 25px;
-  border: 2px solid grey;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-.inlink {
-  background-color: #007bff;
-  width: 25px;
-  border: 2px solid grey;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-.golink {
-  background-color: #007bff;
-  width: 25px;
-  border: 2px solid grey;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-a {
-  color: #fff;
-  font-size: 12px;
-  text-align: center;
-  margin: 5px;
   text-decoration: none;
-  font-weight: bold;
+  background: white;
+  color: grey;
 }
-.fblink:hover {
-  background-color: red;
+.fa-instagram:hover {
+  background: #125688;
+  color: white;
+  text-decoration: none;
 }
-.twlink:hover {
-  background-color: red;
+.fa-facebook-square:hover {
+  background: #3B5998;
+  color: white;
+  text-decoration: none;
 }
-.inlink:hover {
-  background-color: red;
+
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+  text-decoration: none;
 }
-.iglink:hover {
-  background-color: red;
+
+.fa-google:hover {
+  background: #dd4b39;
+  color: white;
+  text-decoration: none;
 }
-.golink:hover {
-  background-color: red;
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;
+  text-decoration: none;
+}
+.card-text {
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.fas, .far, .fa-edit, .fa-comments, .fa-dice-d20,
+.fa-code, .fa-briefcase, .fa-cloud-download-alt {
+  color: #e84545;
+  font-size: 60px;
+}
+
+.fas:before {
+    content: "\e610";
+    text-align: center;
+    display: block;
+    width:100px;
+}
+.fa-edit:before {
+    content: "\e610";
+    text-align: center;
+    display: block;
+    width:100px;
+}
+.far:before {
+    content: "\e610";
+    text-align: center;
+    display: block;
+    width:100px;
 }
