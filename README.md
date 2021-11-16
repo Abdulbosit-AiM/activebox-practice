@@ -1,2 +1,2 @@
 # activebox-practice
-## I tried to recreate the ActiveBox template using only HTML, CSS and Bootstrap(no SASS or custom JavaScript used)
+## I tried to recreate the ActiveBox template with new versions of bootstrap and sass
