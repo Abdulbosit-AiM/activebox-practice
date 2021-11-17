@@ -1,0 +1,29 @@
+{
+  "name": "activebox-practice",
+  "version": "1.0.0",
+  "description": "recreating with modern versions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulbosit-AiM/activebox-practice.git"
+  },
+  "keywords": [
+    "bootstrap-v5",
+    "sass"
+  ],
+  "author": "Abdulbosit Melikuziev [AiM]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulbosit-AiM/activebox-practice/issues"
+  },
+  "homepage": "https://github.com/Abdulbosit-AiM/activebox-practice#readme",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
